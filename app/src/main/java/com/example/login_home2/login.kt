@@ -53,7 +53,7 @@ fun LoginScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF2196F3)) // Fundo azul
+            .background(Color(0xFF2196F3)) // azul
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -63,9 +63,9 @@ fun LoginScreen() {
         ) {
             Spacer(modifier = Modifier.height(128.dp))
 
-            // Texto "Plataforma ESG" centralizado
+            // Texto centralizado
             Text(
-                text = "Plataforma ESG",
+                text = "ESG Connect",
                 fontSize = 32.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White,
@@ -115,7 +115,7 @@ fun LoginScreen() {
                     .fillMaxWidth()
                     .height(70.dp),
                 colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFFFF9800) // Fundo laranja
+                    containerColor = Color(0xFFFF9800) // laranja
                 )
             ) {
                 Text(
